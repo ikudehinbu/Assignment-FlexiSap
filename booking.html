@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookingstyle.css">
     <title>booking</title>
 </head>
 <body>
@@ -9,53 +10,67 @@
         <section>
             <form action="">
                 <div>
-                    <p>what is your name: <input type="text" name="customer's name">
-                    </p>
-                    <p>
-                        What is your Telephone number: <input type="tel" name="Phone_number" id="">
-                    </p>
-                    <p>
-                        What is your email: <input type="email" name="email" id="">
-                    </p>
-                    <p>Gender: 
-                        <input type="radio" name="gender" id=""> Male
-                        <input type="radio" name="gender" id="">Female
-                    </p>
-                    <p>
-                        What brands are you interested in? <br>
-                        <input type="checkbox" name="brand_interest" id=""> Toyota <br>
-                        <input type="checkbox" name="brand_interest" id=""> Ford <br>
-                        <input type="checkbox" name="brand_interest" id="">Honda <br>
-                        <input type="checkbox" name="brand_interest" id="">Hyundai <br>
-                        <input type="checkbox" name="brand_interest" id="">Nissan <br>
-                        <input type="checkbox" name="brand_interest" id="">Chevrolet <br>
-                        <input type="checkbox" name="brand_interest" id="">Range Rover <br>
-                        <input type="checkbox" name="brand_interest" id="">Porsche <br>
-                    </p>
-                    <p>
-                        <input type="color" name="car_type" id="">
-                    </p>
-                    <p>
-                        Can you give a brief description of the car you want <br>
-                        <textarea name="description" id="" cols="30" rows="10"></textarea>
-                    </p>
-                    <p>
-                        State of the Car you want
-                        <select name="state of the car" id="">
-                            <option value="Brand New">Brand New</option>
-                            <option value="Second Hand">Second hand</option>
-                            <option value="Refurbished">Refurbished</option>
-                        </select>
-                    </p>
-                    <p>
-                        Schedule a date for Inspection
-                        <input type="datetime-local" name="time" id="">
-                    </p>
+                    <section>
+                        <p>
+                            what is your name: <input type="text" name="customer's name">
+                        </p>
+                        <p>
+                            What is your Telephone number: <input type="tel" name="Phone_number" id="">
+                        </p>
+                        <p>
+                            What is your email: <input type="email" name="email" id="">
+                        </p>
+                        <p>Gender: 
+                            <input type="radio" name="gender" id=""> Male
+                            <input type="radio" name="gender" id="">Female
+                        </p>
+                    </section>
+
+                    <section>
+                        <p>
+                            What brands are you interested in? <br>
+                            <input type="checkbox" name="brand_interest" id=""> Toyota <br>
+                            <input type="checkbox" name="brand_interest" id=""> Ford <br>
+                            <input type="checkbox" name="brand_interest" id="">Honda <br>
+                            <input type="checkbox" name="brand_interest" id="">Hyundai <br>
+                            <input type="checkbox" name="brand_interest" id="">Nissan <br>
+                            <input type="checkbox" name="brand_interest" id="">Chevrolet <br>
+                            <input type="checkbox" name="brand_interest" id="">Range Rover <br>
+                            <input type="checkbox" name="brand_interest" id="">Porsche <br>
+                        </p>
+                        <p>
+                            <input type="color" name="car_type" id="">
+                        </p>
+                        <p>
+                            Can you give a brief description of the car you want <br>
+                            <textarea name="description" id="" cols="30" rows="10"></textarea>
+                        </p>
+                    </section>
+
+                    <section>
+                        <p>
+                            State of the Car you want
+                            <select name="state of the car" id="">
+                                <option value="Brand New">Brand New</option>
+                                <option value="Second Hand">Second hand</option>
+                                <option value="Refurbished">Refurbished</option>
+                            </select>
+                        </p>
+                        <p>
+                            Schedule a date for Inspection
+                            <input type="datetime-local" name="time" id="">
+                        </p>
+                    </section>
+                 
+                    <footer>
                     <p>
                         <input type="submit" value="Submit">
                     </p>
 
+                    </footer>
+               
                     <p>For more specific details, call +234-673-764-2784</p>
+                    <p>Click <a href="index.html">here</a> to go to home page</p>
 
                 </div>
             </form>
