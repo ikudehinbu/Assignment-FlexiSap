@@ -1,0 +1,44 @@
+body{
+    
+    min-width:330px;
+    overflow: auto;
+    margin: 10px ;
+    min-width: 940px;
+    background: #40684c2f;
+    border-image-width: ;
+}
+
+img{
+    width: 192px;
+    height: 192px;
+}
+h1{
+    color: red;
+    text-align: center;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h2 {
+text-align: center;
+padding: 1px;
+border: 0px;
+margin: 0px;
+}
+
+ul>li {
+    background-color: rgba(0, 0, 255, 0.589);
+    width: 100px;
+    margin: 5px;
+    border-style: dashed;
+}
+
+ul {
+    display: inline-block;
+}
+
+footer>p{
+    font-style: italic;
+    background-color: rgba(210, 105, 30, 0.541);
+}

@@ -1,0 +1,23 @@
+body{
+    
+    min-width:330px;
+    overflow: auto;
+    margin: 10px ;
+    min-width: 940px;
+    background: #40684c2f;
+    border-image-width: ;
+}
+
+section>p{
+    display: inline-block;
+    
+}
+
+footer {
+    text-align:center;
+}
+
+div>p:last-child{
+    font-style: italic;
+    background-color: rgba(210, 105, 30, 0.541);
+}
