@@ -1,11 +1,13 @@
 body{
-    
-    min-width:330px;
     overflow: auto;
-    margin: 10px ;
-    min-width: 940px;
+    margin: 0 ;
     background: #40684c2f;
     border-image-width: ;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
 }
 
 img{
@@ -27,12 +29,19 @@ border: 0px;
 margin: 0px;
 }
 
-ul>li {
-    background-color: rgba(0, 0, 255, 0.589);
-    width: 100px;
-    margin: 5px;
-    border-style: dashed;
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: px;
+}
+
 
 ul {
     display: inline-block;
